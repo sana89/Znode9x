@@ -11,7 +11,7 @@ public class Execute extends ExcelRead {
 	public void getSteps(String testCase, String stepNumber,String testStep, String keyword, String Locator, String TestData1,String TestData2,String TestData3,String TestData4,String output) throws Exception
 	{
 		
-		
+    System.out.println("1ss");
 	 boolean runMode =CheckExecutionMode.CheckTheExecutionMode(testCase);
 	 if(runMode == true)
 		 ExecuteKeywords.ExecuteTheKeywords(testCase, stepNumber, testStep, keyword, Locator, TestData1, TestData2, TestData3, TestData4,output);
