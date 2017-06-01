@@ -2,6 +2,8 @@ package Executor;
 
 import ActionUtilities.ManageDrivers;
 import ActionUtilities.TakeScreenshot;
+import Keywords.Click;
+import Keywords.SendKeys;
 
 public class ExecuteKeywords {
 	
@@ -17,19 +19,20 @@ public class ExecuteKeywords {
 			ManageDrivers.OpenUrl(TestData2, TestData1, TestData3, TestData4);
 			break;
 		
-			/*
-		case "CloseBrowser":
-		    closeBrowser.closeTheBrowser();
-		    break;
 			
-		case "EnterText":
-		    SendText.SendTheText(Locator,TestData1);
+		//case "CloseBrowser":
+		 //   closeBrowser.closeTheBrowser();
+		  //  break;
+			
+		case "SendKeys":
+		    SendKeys.sendText(Locator,TestData1);
 		    break;
+		    
 		
 		case "Click":
-		    click.clickTheButton(Locator);
+		   Click.clickAction(Locator);
 		    break;	
-		    
+		 /*   
 		case "OpenSession":
 		    openSession.openTheSession(TestData1);
 		    break;

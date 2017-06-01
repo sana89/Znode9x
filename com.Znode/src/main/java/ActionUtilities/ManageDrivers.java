@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-//Author: Robin Gajbhiye, Date:04June2016
+
 
 public class ManageDrivers {
 	
@@ -70,9 +70,9 @@ public class ManageDrivers {
 		driver.get(url);
 		driver.findElement(By.id("Username")).sendKeys(username);
 		driver.findElement(By.id("btnPassword")).sendKeys(password);
-		driver.findElement(By.className("btn-text login-btn")).click();
+		driver.findElement(By.xpath("//button[@class='btn-text login-btn']")).click();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50000, TimeUnit.SECONDS);
 		return driver;
 	}
 

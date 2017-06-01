@@ -12,7 +12,7 @@ public class ExcelWrite {
 	
 	public static void WriteTheExcel(String data, int row) throws IOException
 	{
-		File src=new File(".//testdata//testdata.xlsx");
+		File src=new File(".//src//test//resources//TestData//testdata.xlsx");
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);

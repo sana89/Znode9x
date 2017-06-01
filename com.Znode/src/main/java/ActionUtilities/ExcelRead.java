@@ -21,13 +21,13 @@ public class ExcelRead {
 	public static Object[][] StepsFeed() throws Exception
 	{
 		       Object[][] object = null; 
-		       File pro = new File(".//configuration//config.property");
-				FileInputStream fs = new FileInputStream(pro);
-				Properties pr = new Properties();
-				pr.load(fs);
-				String excelFile1 = pr.getProperty("excelToExcute");
-		       //File src=new File(".//testdata//testdata.xlsx");
-		        File src=new File(excelFile1);
+//		       File pro = new File(".//configuration//config.property");
+//				FileInputStream fs = new FileInputStream(pro);
+//				Properties pr = new Properties();
+//				pr.load(fs);
+//				String excelFile1 = pr.getProperty("excelToExcute");
+		       File src=new File(".//src//test//resources//TestData//testdata.xlsx");
+		       // File src=new File(excelFile1);
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);
@@ -56,6 +56,7 @@ public class ExcelRead {
 				
 
 		     	}
+		     	
 		     
 				return object;
 				
@@ -64,13 +65,13 @@ public class ExcelRead {
 	public static Object[][] readExcel(String Sheet) throws Exception
 	{
 		       Object[][] object = null; 
-		       File pro = new File(".//configuration//config.property");
-				FileInputStream fs = new FileInputStream(pro);
-				Properties pr = new Properties();
-				pr.load(fs);
-				String excelFile1 = pr.getProperty("excelToExcute");
-		       //File src=new File(".//testdata//testdata.xlsx");
-		        File src=new File(excelFile1);
+//		       File pro = new File(".//configuration//config.property");
+//				FileInputStream fs = new FileInputStream(pro);
+//				Properties pr = new Properties();
+//				pr.load(fs);
+//				String excelFile1 = pr.getProperty("excelToExcute");
+		       File src=new File(".//src//test//resources//TestData//testdata.xlsx");
+		       // File src=new File(excelFile1);
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);
@@ -106,5 +107,5 @@ public class ExcelRead {
 				
 	}
 	
-	
+
 }
