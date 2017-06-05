@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Executor.Execute">
+      <class name="com.znodellc.admin9xqa.Znode9X.executor.Execute">
         <methods>
-          <include name="getSteps" invocation-numbers="0 1 2 3 4"/>
+          <include name="getSteps" invocation-numbers="1 2 3 4"/>
         </methods>
-      </class> <!-- Executor.Execute -->
+      </class> <!-- com.znodellc.admin9xqa.Znode9X.executor.Execute -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
