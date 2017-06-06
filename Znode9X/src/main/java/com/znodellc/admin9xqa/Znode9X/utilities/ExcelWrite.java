@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelWrite {
 	public static void WriteTheExcel(String data, int row) throws IOException
 	{
-		File src=new File(".//src//test//resources//TestData//testdata.xlsx");
+		File src=new File(".//TestData/LoginTestData.xlsx");
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);
@@ -33,3 +33,4 @@ public class ExcelWrite {
 		       
 	}
 }
+ 

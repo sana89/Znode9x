@@ -1,12 +1,14 @@
 package com.znodellc.admin9xqa.Znode9X.executor;
 
 import com.znodellc.admin9xqa.Znode9X.baseScript.ManageDrivers;
+import com.znodellc.admin9xqa.Znode9X.keywords.Assertion;
 import com.znodellc.admin9xqa.Znode9X.keywords.Click;
+import com.znodellc.admin9xqa.Znode9X.keywords.CloseBrowser;
 import com.znodellc.admin9xqa.Znode9X.keywords.SendKeys;
 
 public class ExecuteKeywords {
 	
-	public static void ExecuteTheKeywords(String testCase, String stepNumber,String testStep, String keyword, String Locator, String TestData1,String TestData2,String TestData3,String TestData4,String output) throws Exception
+	public static void ExecuteTheKeywords(String testCase, String stepNumber,String testStep, String keyword, String Locator, String TestData1,String TestData2,String TestData3,String TestData4,String Status) throws Exception
 	{
 		System.out.println("Executing step "+"-----"+testCase+"----"+stepNumber +"------"+testStep+"-----------");
         
@@ -17,11 +19,10 @@ public class ExecuteKeywords {
 		case "LaunchBrowser":
 			ManageDrivers.OpenUrl(TestData2, TestData1, TestData3, TestData4);
 			break;
-		
 			
-		//case "CloseBrowser":
-		 //   closeBrowser.closeTheBrowser();
-		  //  break;
+		case "CloseBrowser":
+		    CloseBrowser.closeTheBrowser();
+		    break;
 			
 		case "SendKeys":
 		    SendKeys.sendText(Locator,TestData1);
@@ -31,11 +32,13 @@ public class ExecuteKeywords {
 		case "Click":
 		   Click.clickAction(Locator);
 		    break;	
-		 /*   
-		case "OpenSession":
-		    openSession.openTheSession(TestData1);
-		    break;
 		    
+		   
+		case "Assertion":
+		    Assertion.validateSuccesMsg(stepNumber,Locator, TestData1);
+		    break;
+		  
+		    /*
 		    
 		case "GetText":
 		    getText.getTheText(Locator,stepNumber);

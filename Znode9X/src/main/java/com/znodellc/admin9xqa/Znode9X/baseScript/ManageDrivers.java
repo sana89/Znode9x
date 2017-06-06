@@ -24,7 +24,7 @@ public static WebDriver driver;
 		
 		if (browser.equalsIgnoreCase("Chrome"))
 		{
-			driver =LaunchChrome(url,username,password);
+			driver =LaunchChrome(url);
 		}
 		if (browser=="FireFox")
 		{
@@ -59,15 +59,15 @@ public static WebDriver driver;
 		return driver;
 	}
 
-	private static WebDriver LaunchChrome(String url,String username, String password) {
+	private static WebDriver LaunchChrome(String url) {
 		
 		System.setProperty("webdriver.chrome.driver",".//Drivers//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		System.out.println("opening url  "+"https://"+username+":"+password+"@"+url);
+		//System.out.println("opening url  "+"https://"+username+":"+password+"@"+url);
 		driver.get(url);
-		driver.findElement(By.id("Username")).sendKeys(username);
-		driver.findElement(By.id("btnPassword")).sendKeys(password);
-		driver.findElement(By.xpath("//button[@class='btn-text login-btn']")).click();
+//		driver.findElement(By.id("Username")).sendKeys(username);
+//		driver.findElement(By.id("btnPassword")).sendKeys(password);
+//		driver.findElement(By.xpath("//button[@class='btn-text login-btn']")).click();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(50000, TimeUnit.SECONDS);
 		return driver;

@@ -2,7 +2,6 @@ package com.znodellc.admin9xqa.Znode9X.baseScript;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
@@ -10,18 +9,25 @@ import org.openqa.selenium.WebElement;
 
 public class PropertiesFile extends ManageDrivers{
 
-	public Properties Repository = new Properties();
-	public File file;
-	public FileInputStream fileInputStream;
+	public static Properties Repository = new Properties();
+	public static File file;
+	public static FileInputStream fileInputStream;
 	
-	public void loadPropertiesFile() throws Exception
+	public static void loadPropertiesFile() throws Exception
 	{
-		file = new File(System.getProperty("user.dir")+".//pageLibrary//loginPage.properties");
+		file = new File(System.getProperty("user.dir")+".//pageLibrary/loginPage.properties");
 		fileInputStream = new FileInputStream(file);
+		Repository.load(fileInputStream);
+		
+		file = new File(System.getProperty("user.dir")+".//pageLibrary//menuPage.properties");
+		fileInputStream = new FileInputStream(file);
+		Repository.load(fileInputStream);
 	}
 	
-	public static WebElement getLocator(String locator) throws Exception
+	public static WebElement getLocator(String locator1) throws Exception
 	{
+		loadPropertiesFile();
+		String locator=Repository.getProperty(locator1);
 		String locatorType = locator.split("_")[0];
 		String locatorValue = locator.split("_")[1];
 		
@@ -63,8 +69,8 @@ public class PropertiesFile extends ManageDrivers{
 		}
 	}
 	
-	public WebElement getWebElement(String locator) throws Exception
-	{
-		return getLocator(Repository.getProperty(locator));
-	}
+//	public WebElement getWebElement(String locator) throws Exception
+//	{
+//		return getLocator(Repository.getProperty(locator));
+//	}
 }
