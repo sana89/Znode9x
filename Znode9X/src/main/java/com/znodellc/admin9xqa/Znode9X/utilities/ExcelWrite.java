@@ -9,8 +9,9 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelWrite {
-	public static void WriteTheExcel(String data, int row) throws IOException
+	public static void WriteTheExcel(String data, int row, int cell) throws IOException
 	{
+		
 		File src=new File(".//TestData/LoginTestData.xlsx");
 		 
 		   // load file
@@ -22,7 +23,7 @@ public class ExcelWrite {
 		   // Load sheet- Here we are loading first sheetonly
 		       XSSFSheet sh1= wb.getSheetAt(1);
 		       
-		       sh1.getRow(row).getCell(9).setCellValue(data);
+		       sh1.getRow(row).getCell(cell).setCellValue(data);
 		       
 		      
 		       fis.close();

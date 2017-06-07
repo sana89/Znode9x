@@ -13,7 +13,7 @@ public class ExcelRead {
 	
 	public static Object[][] StepsFeed() throws Exception
 	{
-	System.out.println(1);
+	
 		       Object[][] object = null; 
 //		       File pro = new File(".//configuration//config.property");
 //				FileInputStream fs = new FileInputStream(pro);
@@ -22,7 +22,7 @@ public class ExcelRead {
 //				String excelFile1 = pr.getProperty("excelToExcute");
 		       File src=new File(".//TestData/LoginTestData.xlsx");
 		       // File src=new File(excelFile1);
-		 System.out.println(2);
+		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);
 		 
@@ -32,7 +32,7 @@ public class ExcelRead {
 		   // Load sheet- Here we are loading first sheetonly
 		       XSSFSheet sh1= wb.getSheetAt(1);
 		       int column= sh1.getRow(1).getLastCellNum();
-		     System.out.println(3);
+		     
 		       int rowCount = sh1.getLastRowNum()-sh1.getFirstRowNum();
 		     	object = new Object[rowCount][column];
 		     	for (int i = 0; i < rowCount; i++) 

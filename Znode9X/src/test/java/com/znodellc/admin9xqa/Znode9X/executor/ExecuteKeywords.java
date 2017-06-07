@@ -35,7 +35,7 @@ public class ExecuteKeywords {
 		    
 		   
 		case "Assertion":
-		    Assertion.validateSuccesMsg(stepNumber,Locator, TestData1);
+		    Assertion.validateSuccesMsg(stepNumber, Locator, TestData1);
 		    break;
 		  
 		    /*
