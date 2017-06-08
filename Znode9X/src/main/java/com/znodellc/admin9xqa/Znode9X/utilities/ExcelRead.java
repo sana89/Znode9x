@@ -2,6 +2,7 @@ package com.znodellc.admin9xqa.Znode9X.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.Properties;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -15,13 +16,13 @@ public class ExcelRead {
 	{
 	
 		       Object[][] object = null; 
-//		       File pro = new File(".//configuration//config.property");
-//				FileInputStream fs = new FileInputStream(pro);
-//				Properties pr = new Properties();
-//				pr.load(fs);
-//				String excelFile1 = pr.getProperty("excelToExcute");
-		       File src=new File(".//TestData/LoginTestData.xlsx");
-		       // File src=new File(excelFile1);
+		       File pro = new File(".//Configuration//config.property");
+				FileInputStream fs = new FileInputStream(pro);
+				Properties pr = new Properties();
+				pr.load(fs);
+				String excelFile1 = pr.getProperty("excelToExcute");
+		       //File src=new File(".//TestData/LoginTestData.xlsx");
+		       File src=new File(excelFile1);
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);
@@ -59,13 +60,13 @@ public class ExcelRead {
 	public static Object[][] readExcel(String Sheet) throws Exception
 	{
 		       Object[][] object = null; 
-//		       File pro = new File(".//configuration//config.property");
-//				FileInputStream fs = new FileInputStream(pro);
-//				Properties pr = new Properties();
-//				pr.load(fs);
-//				String excelFile1 = pr.getProperty("excelToExcute");
-		       File src=new File(".//TestData/LoginTestData.xlsx");
-		       // File src=new File(excelFile1);
+		       File pro = new File(".//configuration//config.property");
+				FileInputStream fs = new FileInputStream(pro);
+				Properties pr = new Properties();
+				pr.load(fs);
+				String excelFile1 = pr.getProperty("excelToExcute");
+		       //File src=new File(".//TestData/LoginTestData.xlsx");
+		        File src=new File(excelFile1);
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);

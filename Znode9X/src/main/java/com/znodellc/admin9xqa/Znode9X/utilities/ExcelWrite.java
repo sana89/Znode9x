@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Properties;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -11,8 +12,13 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelWrite {
 	public static void WriteTheExcel(String data, int row, int cell) throws IOException
 	{
-		
-		File src=new File(".//TestData/LoginTestData.xlsx");
+		File pro = new File(".//Configuration//config.property");
+		FileInputStream fs = new FileInputStream(pro);
+		Properties pr = new Properties();
+		pr.load(fs);
+		String excelFile1 = pr.getProperty("excelToExcute");
+		File src=new File(excelFile1);
+
 		 
 		   // load file
 		       FileInputStream fis=new FileInputStream(src);

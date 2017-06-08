@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>32/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 07 11:58:23 IST 2017</td>
+<td>Started on:</td><td>Thu Jun 08 17:47:17 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>40 seconds (40094 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47231 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,110 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 21.0, Check password validation, SendKeys, Znode9X.login.wrongPasswordValidationMsg, Invalid Username or Password., NA, NA, NA, NA</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot focus element
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 43 milliseconds
-Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
-System info: host: &apos;MSD001&apos;, ip: &apos;172.17.2.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SANA~1.AFR\AppData\Local\Temp\scoped_dir1668_7552}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 7350ed290bfea8c7ca8028bd89260072
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at com.znodellc.admin9xqa.Znode9X.keywords.SendKeys.sendText(SendKeys.java:14)
-	at com.znodellc.admin9xqa.Znode9X.executor.ExecuteKeywords.ExecuteTheKeywords(ExecuteKeywords.java:28)
-	at com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps(Execute.java:19)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1910896157", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1910896157'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot focus element
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 43 milliseconds
-Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
-System info: host: &apos;MSD001&apos;, ip: &apos;172.17.2.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SANA~1.AFR\AppData\Local\Temp\scoped_dir1668_7552}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 7350ed290bfea8c7ca8028bd89260072
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at com.znodellc.admin9xqa.Znode9X.keywords.SendKeys.sendText(SendKeys.java:14)
-	at com.znodellc.admin9xqa.Znode9X.executor.ExecuteKeywords.ExecuteTheKeywords(ExecuteKeywords.java:28)
-	at com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps(Execute.java:19)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -179,162 +75,198 @@ Session ID: 7350ed290bfea8c7ca8028bd89260072
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 1.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, NA, NA, NA</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 1.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
 <td></td>
-<td>5</td>
+<td>8</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 2.0, Keep the username and password blank, Click, Znode9X.login.loginbutton, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 3.0, Check username validation, Assertion, Znode9X.login.usernameValidationMsg, Email Address is required., NA, NA, NA, Pass</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 2.0, Keep the username and password blank, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
 <td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 4.0, Check password validation, Assertion, Znode9X.login.passwordValidationMsg, Password is required., NA, NA, NA, Fail</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 3.0, Check username validation, Assertion, Znode9X.login.usernameValidationMsg, Email Address is required., NA, , , </td>
 <td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 5.0, Close the browser, CloseBrowser, NA, NA, NA, NA, NA, NA</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 4.0, Check password validation, Assertion, Znode9X.login.passwordValidationMsg, Password is required., NA, , , </td>
 <td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 1.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, NA, NA, NA</td>
-<td></td>
-<td>4</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 2.0, Enter Username, SendKeys, Znode9X.login.username, admin@znode.com, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 3.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 4.0, Check password validation, Assertion, Znode9X.login.passwordValidationMsg, Password is required, NA, NA, NA, Pass</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 5.0, Close the browser, CloseBrowser, NA, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 6.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, NA, NA, NA</td>
-<td></td>
-<td>4</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 7.0, Enter Password, SendKeys, Znode9X.login.password, admin12345, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 8.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 9.0, Check username validation, Assertion, Znode9X.login.usernameValidationMsg, Email Address is required., NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 10.0, Close the browser, CloseBrowser, NA, NA, NA, NA, NA, Pass</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 11.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, NA, NA, NA</td>
-<td></td>
-<td>3</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 12.0, Enter wrong username, SendKeys, Znode9X.login.username, 123@znode.com, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 13.0, Enter correct password, SendKeys, Znode9X.login.password, admin12345, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 14.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, NA, NA, NA</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test1, 5.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
 <td></td>
 <td>1</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 15.0, Check username validation, Assertion, Znode9X.login.wrongUsernameValidationMsg, Invalid Username or Password., NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 16.0, Close the browser, CloseBrowser, NA, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 17.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, NA, NA, NA</td>
-<td></td>
-<td>4</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 18.0, Enter correct username, SendKeys, Znode9X.login.username, admin@znode.com, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 19.0, Enter incorrect password, SendKeys, Znode9X.login.password, adm1234, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 20.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 22.0, Close the browser, CloseBrowser, NA, NA, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 23.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, NA, NA, NA</td>
-<td></td>
-<td>4</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 24.0, Enter correct username, SendKeys, Znode9X.login.username, admin@znode.com, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 25.0, Enter correct password, SendKeys, Znode9X.login.password, admin12345, NA, NA, NA, NA</td>
-<td></td>
-<td>0</td>
-<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
-<tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 26.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, NA, NA, NA</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 6.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
 <td></td>
 <td>5</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 27.0, Successfully logged in and dashboard page appears, NA, NA, Dashboard | Multifront®, NA, NA, NA, NA</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 7.0, Enter Username, SendKeys, Znode9X.login.username, admin@znode.com, NA, , , </td>
 <td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 28.0, Close the browser, CloseBrowser, NA, NA, NA, NA, NA, NA</td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 8.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 9.0, Check password validation, Assertion, Znode9X.login.passwordValidationMsg, Password is required., NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test2, 10.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 11.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
+<td></td>
+<td>5</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 12.0, Enter Password, SendKeys, Znode9X.login.password, admin12345, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 13.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 14.0, Check username validation, Assertion, Znode9X.login.usernameValidationMsg, Email Address is required., NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test3, 15.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 16.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
+<td></td>
+<td>4</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 17.0, Enter wrong username, SendKeys, Znode9X.login.username, 123@znode.com, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 18.0, Enter correct password, SendKeys, Znode9X.login.password, admin12345, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 19.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 20.0, Check username validation, Assertion, Znode9X.login.wrongUsernameValidationMsg, Invalid Username or Password., NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test4, 21.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 22.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
+<td></td>
+<td>5</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 23.0, Enter correct username, SendKeys, Znode9X.login.username, admin@znode.com, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 24.0, Enter incorrect password, SendKeys, Znode9X.login.password, adm1234, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 25.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 26.0, Check password validation, Assertion, Znode9X.login.wrongPasswordValidationMsg, Invalid Username or Password., NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test5, 27.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 28.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 29.0, Enter incorrect username, SendKeys, Znode9X.login.username, 123@znode.com, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 30.0, Enter incorrect password, SendKeys, Znode9X.login.password, adm1234, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 31.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 32.0, Check validation, Assertion, Znode9X.login.wrongUsrnameOrPwdValidationMsg, Invalid Username or Password., NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test6, 33.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test7, 34.0, Open the Brower, LaunchBrowser, NA, http://admin9xqa.znodellc.com/, Chrome, , , </td>
+<td></td>
+<td>5</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test7, 35.0, Enter correct username, SendKeys, Znode9X.login.username, admin@znode.com, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test7, 36.0, Enter correct password, SendKeys, Znode9X.login.password, admin12345, NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test7, 37.0, click on login, Click, Znode9X.login.loginbutton, NA, NA, , , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test7, 38.0, Successfully logged in and dashboard page appears, Assertion, Znode9X.login.welcomePage, WELCOME TO MULTIFRONT
+Multifront Commerce like never before., NA, , , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Login Test7, 39.0, Close the browser, CloseBrowser, NA, NA, NA, , , </td>
 <td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>

@@ -1,9 +1,11 @@
 package com.znodellc.admin9xqa.Znode9X.executor;
 
 import com.znodellc.admin9xqa.Znode9X.baseScript.ManageDrivers;
+import com.znodellc.admin9xqa.Znode9X.keywords.AssertPageTitle;
 import com.znodellc.admin9xqa.Znode9X.keywords.Assertion;
 import com.znodellc.admin9xqa.Znode9X.keywords.Click;
 import com.znodellc.admin9xqa.Znode9X.keywords.CloseBrowser;
+import com.znodellc.admin9xqa.Znode9X.keywords.DropDown;
 import com.znodellc.admin9xqa.Znode9X.keywords.SendKeys;
 
 public class ExecuteKeywords {
@@ -37,6 +39,14 @@ public class ExecuteKeywords {
 		case "Assertion":
 		    Assertion.validateSuccesMsg(stepNumber, Locator, TestData1);
 		    break;
+		    
+		case "AssertPageTitle":
+			AssertPageTitle.comparePageTitle(stepNumber, TestData1);
+		    
+		
+		case "DropDown":
+			DropDown.handleDropDown(Locator, TestData1);
+			break;
 		  
 		    /*
 		    
