@@ -1,6 +1,7 @@
 package com.znodellc.admin9xqa.Znode9X.executor;
 
 import com.znodellc.admin9xqa.Znode9X.baseScript.ManageDrivers;
+import com.znodellc.admin9xqa.Znode9X.keywords.Action;
 import com.znodellc.admin9xqa.Znode9X.keywords.AssertPageTitle;
 import com.znodellc.admin9xqa.Znode9X.keywords.Assertion;
 import com.znodellc.admin9xqa.Znode9X.keywords.Click;
@@ -46,6 +47,10 @@ public class ExecuteKeywords {
 		
 		case "DropDown":
 			DropDown.handleDropDown(Locator, TestData1);
+			break;
+			
+		case "Action":
+			Action.mouseHoverAction(Locator);
 			break;
 		  
 		    /*

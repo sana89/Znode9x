@@ -13,7 +13,7 @@ public class DropDown extends PropertiesFile {
 		
 		Select option = new Select(value);
 		
-		option.selectByValue(Value);
+		option.selectByVisibleText(Value);
 	}
 
 }

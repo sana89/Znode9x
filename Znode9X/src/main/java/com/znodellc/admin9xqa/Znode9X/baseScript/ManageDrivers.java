@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 
 public class ManageDrivers {
 public static WebDriver driver;
@@ -77,5 +78,17 @@ public static WebDriver driver;
 	public static WebDriver GetDriver()
 	{
 		return driver;
+	}
+	
+	public void implicitWait(int timeInSec){
+		System.out.println("Waiting for page to load...");
+		try{
+			driver.manage().timeouts().implicitlyWait(timeInSec, TimeUnit.SECONDS);
+			System.out.println("Page is loaded");
+		}
+		catch(Throwable error){
+			System.out.println("Timeout for Page Load Request to complete after "+ timeInSec+ " seconds");
+			Assert.assertTrue(false, "Timeout for page load request after "+timeInSec+" second");
+		}
 	}
 }

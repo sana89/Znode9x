@@ -12,7 +12,7 @@ public class AssertPageTitle extends ManageDrivers {
 	{
 		int stepNo = ConvertDataType.getNumber(step);
 		String title = driver.getTitle();
-		ExcelWrite.WriteTheExcel(title, stepNo, 7);
+		ExcelWrite.WriteTheExcel(title, stepNo, 8);
 		
 		try
 		{
