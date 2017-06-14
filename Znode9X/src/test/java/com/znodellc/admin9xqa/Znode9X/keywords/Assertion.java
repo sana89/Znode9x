@@ -14,7 +14,7 @@ public class Assertion {
 		
 		
 		System.out.println(stepNo);
-		
+		Thread.sleep(3000);
 		
 		String actRes = PropertiesFile.getLocator(locator).getText();
 		ExcelWrite.WriteTheExcel(actRes, stepNo, 8);

@@ -9,6 +9,7 @@ public class DropDown extends PropertiesFile {
 	
 	public static void handleDropDown(String locator, String Value) throws Exception
 	{
+		Thread.sleep(2000);
 		WebElement value = PropertiesFile.getLocator(locator);
 		
 		Select option = new Select(value);
