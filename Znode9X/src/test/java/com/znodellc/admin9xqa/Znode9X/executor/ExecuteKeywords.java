@@ -4,9 +4,11 @@ import com.znodellc.admin9xqa.Znode9X.baseScript.ManageDrivers;
 import com.znodellc.admin9xqa.Znode9X.keywords.Action;
 import com.znodellc.admin9xqa.Znode9X.keywords.AssertPageTitle;
 import com.znodellc.admin9xqa.Znode9X.keywords.Assertion;
+import com.znodellc.admin9xqa.Znode9X.keywords.Calender;
 import com.znodellc.admin9xqa.Znode9X.keywords.Click;
 import com.znodellc.admin9xqa.Znode9X.keywords.CloseBrowser;
 import com.znodellc.admin9xqa.Znode9X.keywords.DropDown;
+import com.znodellc.admin9xqa.Znode9X.keywords.DropDownWithCheckbox;
 import com.znodellc.admin9xqa.Znode9X.keywords.SendKeys;
 
 public class ExecuteKeywords {
@@ -53,6 +55,13 @@ public class ExecuteKeywords {
 			Action.mouseHoverAction(Locator);
 			break;
 		  
+		case "Calender":
+		Calender.selectDate(TestData1, Locator);
+		break;
+		
+		case "DropDownWithCheckbox":
+			DropDownWithCheckbox.handleDropDown(Locator, TestData1);
+		
 		    /*
 		    
 		case "GetText":
