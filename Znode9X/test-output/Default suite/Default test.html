@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>195/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 16 17:19:42 IST 2017</td>
+<td>Started on:</td><td>Mon Jun 19 14:48:03 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16293 ms)</td>
+<tr><td>Total time:</td><td>255 seconds (255673 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,206 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 176.0, Click on Yes in Allow Multiple Files, Click, Znode9X.addNew.yesAllowMultipleFiles, NA, NA, NA, , </td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;label onclick=&quot;EditableText.prototype.labelClick(&amp;quot;yes&amp;quot;,&amp;quot;IsAllowMultiUpload&amp;quot;)&quot;&gt;...&lt;/label&gt; is not clickable at point (215, 339). Other element would receive the click: &lt;label class=&quot;checkbox&quot;&gt;...&lt;/label&gt;
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;MSD001&apos;, ip: &apos;172.17.2.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SANA~1.AFR\AppData\Local\Temp\scoped_dir8292_11111}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 120a69fcdf8c9dc793e6259fde5708ed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.znodellc.admin9xqa.Znode9X.keywords.Click.clickAction(Click.java:17)
+	at com.znodellc.admin9xqa.Znode9X.executor.ExecuteKeywords.ExecuteTheKeywords(ExecuteKeywords.java:38)
+	at com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps(Execute.java:19)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1456265041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1456265041'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;label onclick=&quot;EditableText.prototype.labelClick(&amp;quot;yes&amp;quot;,&amp;quot;IsAllowMultiUpload&amp;quot;)&quot;&gt;...&lt;/label&gt; is not clickable at point (215, 339). Other element would receive the click: &lt;label class=&quot;checkbox&quot;&gt;...&lt;/label&gt;
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;MSD001&apos;, ip: &apos;172.17.2.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SANA~1.AFR\AppData\Local\Temp\scoped_dir8292_11111}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 120a69fcdf8c9dc793e6259fde5708ed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.znodellc.admin9xqa.Znode9X.keywords.Click.clickAction(Click.java:17)
+	at com.znodellc.admin9xqa.Znode9X.executor.ExecuteKeywords.ExecuteTheKeywords(ExecuteKeywords.java:38)
+	at com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps(Execute.java:19)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 185.0, Click on Yes in Allow Multiple Files, Click, Znode9X.addNew.yesAllowMultipleFiles, NA, NA, NA, , </td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;label onclick=&quot;EditableText.prototype.labelClick(&amp;quot;yes&amp;quot;,&amp;quot;IsAllowMultiUpload&amp;quot;)&quot;&gt;...&lt;/label&gt; is not clickable at point (215, 373). Other element would receive the click: &lt;label class=&quot;checkbox&quot;&gt;...&lt;/label&gt;
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;MSD001&apos;, ip: &apos;172.17.2.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SANA~1.AFR\AppData\Local\Temp\scoped_dir8292_11111}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 120a69fcdf8c9dc793e6259fde5708ed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.znodellc.admin9xqa.Znode9X.keywords.Click.clickAction(Click.java:17)
+	at com.znodellc.admin9xqa.Znode9X.executor.ExecuteKeywords.ExecuteTheKeywords(ExecuteKeywords.java:38)
+	at com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps(Execute.java:19)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1989219205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1989219205'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;label onclick=&quot;EditableText.prototype.labelClick(&amp;quot;yes&amp;quot;,&amp;quot;IsAllowMultiUpload&amp;quot;)&quot;&gt;...&lt;/label&gt; is not clickable at point (215, 373). Other element would receive the click: &lt;label class=&quot;checkbox&quot;&gt;...&lt;/label&gt;
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;MSD001&apos;, ip: &apos;172.17.2.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SANA~1.AFR\AppData\Local\Temp\scoped_dir8292_11111}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 120a69fcdf8c9dc793e6259fde5708ed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.znodellc.admin9xqa.Znode9X.keywords.Click.clickAction(Click.java:17)
+	at com.znodellc.admin9xqa.Znode9X.executor.ExecuteKeywords.ExecuteTheKeywords(ExecuteKeywords.java:38)
+	at com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps(Execute.java:19)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -102,27 +302,952 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test1, 6.0, Click on products attribute in PIM module, Click, Znode9X.addNew.productAttributes, NA, NA, NA, , </td>
 <td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 7.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 8.0, Keep all the fields Blank and click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 9.0, It navigates back to Attribute page., Assertion, Znode9X.addNew.cancelValidation, Attributes, NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test3, 10.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test3, 11.0, Keep all the fields blank and Click on Save Button, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 7.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test3, 12.0, Check for Validation, Assertion, Znode9X.addNew.codeValidation, Please enter attribute code., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test3, 13.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
 <td></td>
 <td>2</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 8.0, Select a Date dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Image, NA, NA, , </td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test4, 14.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
 <td></td>
-<td>2</td>
+<td>1</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 9.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Abc, NA, NA, , </td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test4, 15.0, Keep all the fields blank and click on Save&Close Button, Click, Znode9X.addNew.save&Close, NA, NA, NA, , </td>
 <td></td>
 <td>0</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 <tr>
-<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test2, 10.0, Select Allowed Extension DropDown, DropDownWithCheckbox, Znode9X.addNew.allowedExtensions, .jpg, NA, NA, , </td>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test4, 16.0, Check for Validation, Assertion, Znode9X.addNew.codeValidation, Please enter attribute code., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test4, 17.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test5, 18.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test5, 19.0, Select a text dropdown in Attribute Type, DropDown, Znode9X.addNew.attributeType, Text, NA, NA, , </td>
 <td></td>
 <td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test5, 20.0, Enter the value in Code field and keep locale field Blank, SendKeys, Znode9X.addNew.code, Colour, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test5, 21.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test5, 22.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test5, 23.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 24.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 25.0, Enter the value in Code field and keep locale field Blank, SendKeys, Znode9X.addNew.code, Available, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 26.0, Click on Locale/Values tab, Click, Znode9X.addNew.locale/values, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 27.0, Enter value in English field, SendKeys, Znode9X.addNew.english, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 28.0, Enter value in French field, SendKeys, Znode9X.addNew.french, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 29.0, Enter value in German Field, SendKeys, Znode9X.addNew.german, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 30.0, Enter value in Spanish Field , SendKeys, Znode9X.addNew.spanish, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 31.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 32.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test6, 33.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test7, 34.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test7, 35.0, Select a text dropdown in Attribute Type, DropDown, Znode9X.addNew.attributeType, Text, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test7, 36.0, Enter already available code in code field, SendKeys, Znode9X.addNew.code, Colour, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test7, 37.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test7, 38.0, Check for Validation, Assertion, Znode9X.addNew.duplicateCodeValidation, Attribute Code Already exist., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test7, 39.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 40.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 41.0, Select a Yes/No dropdown in Attribute Type, DropDown, Znode9X.addNew.attributeType, Yes/No, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 42.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Support, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 43.0, Select Attribute Group DropDown, DropDown, Znode9X.addNew.attributeGroup, ProductInfo, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 44.0, Enter value in Help Description field, SendKeys, Znode9X.addNew.helpDescription, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 45.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 46.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test8, 47.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 48.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 49.0, Select a Text Area dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Text Area, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 50.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Fabric, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 51.0, Click on No in Is Localizable field, Click, Znode9X.addNew.noLocalizable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 52.0, Click on Yes in WYSIWYG Enabled, Click, Znode9X.addNew.yesWYSIWYGEnabled, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 53.0, Select Attribute Group DropDown, DropDown, Znode9X.addNew.attributeGroup, ProductSetting, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 54.0, Enter value in Help Description field, SendKeys, Znode9X.addNew.helpDescription, xyz, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 55.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 56.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test9, 57.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 58.0, Click on Add New, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 59.0, Select a Text Area dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Text Area, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 60.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Features, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 61.0, Click on No in WYSIWYG Enabled field, Click, Znode9X.addNew.noWYSIWYGEnabled, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 62.0, Enter value in Max Characters field, SendKeys, Znode9X.addNew.maxChar, 100, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 63.0, Select Attribute Group DropDown, DropDown, Znode9X.addNew.attributeGroup, ShippingSettings, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 64.0, Click on No in Is Comparable field, Click, Znode9X.addNew.noComparable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 65.0, Click on Yes in Is Used In Search, Click, Znode9X.addNew.yesUseInSearch, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 66.0, Enter value in Help Description field, SendKeys, Znode9X.addNew.helpDescription, xyz, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 67.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 68.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test10, 69.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 70.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 71.0, Select a Text dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Text, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 72.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, ModelName, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 73.0, Click on No in Required Field, Click, Znode9X.addNew.noRequired, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 74.0, Click on No in Is Localizable field, Click, Znode9X.addNew.noLocalizable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 75.0, Click on Yes in Is Unique Value field, Click, Znode9X.addNew.yesUniqueVal, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 76.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 77.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test11, 78.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 79.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 80.0, Select a Text dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Text, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 81.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Dimension, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 82.0, Click on Yes in Is Personizable field, Click, Znode9X.addNew.yesIsPersonalizable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 83.0, Select Validation Rule Dropdown, DropDown, Znode9X.addNew.validationRule, Alphanumeric, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 84.0, Enter value in Max Characters field, SendKeys, Znode9X.addNew.maxChar, 89, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 85.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 86.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test12, 87.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 88.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 89.0, Select a Text dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Text, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 90.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Price, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 91.0, Enter value in max charcters field, SendKeys, Znode9X.addNew.maxChar, 50.2, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 92.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 93.0, Check for Validation, Assertion, Znode9X.addNew.maxCharError, Only naturals numbers are allow in the Max Characters field., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test13, 94.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 95.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 96.0, Select a Simple Select dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Simple Select, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 97.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Size, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 98.0, Click on No in Required Field, Click, Znode9X.addNew.noRequired, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 99.0, Click on Yes in Is configurable field, Click, Znode9X.addNew.yesIsConfigurable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 100.0, Click on No in Is Localizable field, Click, Znode9X.addNew.noLocalizable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 101.0, Select Attribute Group DropDown, DropDown, Znode9X.addNew.attributeGroup, Image, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 102.0, Click on No in Is Comparable field, Click, Znode9X.addNew.noComparable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 103.0, Click on Yes in Is Used In Search, Click, Znode9X.addNew.yesUseInSearch, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 104.0, Click on Yes in Is Used for facets  field, Click, Znode9X.addNew.yesIsUseForFacets, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 105.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 106.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test14, 107.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 108.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 109.0, Select a Simple Select dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Number, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 110.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, ModelNumber, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 111.0, Enter value in Min Number field , SendKeys, Znode9X.addNew.minNo, 0, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 112.0, Enter value in Max Number field, SendKeys, Znode9X.addNew.maxNo, 100, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 113.0, Enter value in default value field, SendKeys, Znode9X.addNew.defaultValue, 8, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 114.0, Click on Locale/Values tab, Click, Znode9X.addNew.locale/values, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 115.0, Enter value in French field, SendKeys, Znode9X.addNew.french, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 116.0, Enter value in German Field, SendKeys, Znode9X.addNew.german, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 117.0, Enter value in Spanish Field , SendKeys, Znode9X.addNew.spanish, abc, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 118.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 119.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test15, 120.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 121.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 122.0, Select a Number dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Number, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 123.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Style, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 124.0, Click on Yes in  Allow Negative, Click, Znode9X.addNew.yesAllowNegative, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 125.0, Click on Yes in Allow Decimals, Click, Znode9X.addNew.yesAllowDecimals, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 126.0, Enter value in Min Number field , SendKeys, Znode9X.addNew.minNo, -100, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 127.0, Enter value in Max Number field, SendKeys, Znode9X.addNew.maxNo, 50.6, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 128.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 129.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test16, 130.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 131.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 132.0, Select a Number dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Number, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 133.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Depth, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 134.0, Enter negative value in Min Number field, SendKeys, Znode9X.addNew.minNo, -70, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 135.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 136.0, Check for Validation, Assertion, Znode9X.addNew.negativeNoValidation, Negative value not allowed., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test17, 137.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 138.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 139.0, Select a Number dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Number, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 140.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Depth, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 141.0, Enter decimal value in Max Number field, SendKeys, Znode9X.addNew.maxNo, 57.89, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 142.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 143.0, Check for Validation, Assertion, Znode9x.addNew.decimalNoValidation, Decimal value not allowed., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test18, 144.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 145.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 146.0, Select a Multi Select dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Multi Select, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 147.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Package, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 148.0, Click on No in Required Field, Click, Znode9X.addNew.noRequired, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 149.0, Click on No in Is Localizable field, Click, Znode9X.addNew.noLocalizable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 150.0, Click on No in Is Comparable field, Click, Znode9X.addNew.noComparable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 151.0, Click on Yes in Is Used In Search, Click, Znode9X.addNew.yesUseInSearch, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 152.0, Click on Yes in Is Used for facets  field, Click, Znode9X.addNew.yesIsUseForFacets, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 153.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 154.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test19, 155.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test20, 156.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test20, 157.0, Select a Link dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Link, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test20, 158.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Seller, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test20, 159.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test20, 160.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test20, 161.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 162.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 163.0, Select a Label dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Label, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 164.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Warranty, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 165.0, Click on No in Is Localizable field, Click, Znode9X.addNew.noLocalizable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 166.0, Click on No in Is Comparable field, Click, Znode9X.addNew.noComparable, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 167.0, Click on Yes in Is Used In Search, Click, Znode9X.addNew.yesUseInSearch, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 168.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 169.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test21, 170.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 171.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 172.0, Select a Image dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Image, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 173.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, Display, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 174.0, Select Allowed Extensions DropDown, DropDownWithCheckbox, Znode9X.addNew.allowedExtensions, Select all, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 175.0, Enter value in Max File Size, SendKeys, Znode9X.addNew.maxFileSize, 15, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 177.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 178.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test22, 179.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 180.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 181.0, Select a File dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, File, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 182.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, abcd, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 183.0, Enter value in Max File Size , SendKeys, Znode9X.addNew.maxFileSize, 10, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 184.0, Select Allowed Extensions DropDown, DropDownWithCheckbox, Znode9X.addNew.allowedExtensions, .3ga, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 186.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 187.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test23, 188.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 189.0, Click on AddNew, Click, Znode9X.addNew.addnewoption, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 190.0, Select a Date dropdown from Attribute Type, DropDown, Znode9X.addNew.attributeType, Date, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 191.0, Enter value in Code field, SendKeys, Znode9X.addNew.code, rst, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 192.0, Select Calender in Min Date field, Click, Znode9X.addNew.minDate, NA, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 193.0, Select a min date in calender, Calender, Znode9X.addNew.minDate, 5 July 2017, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 194.0, Select a max date in calender, Calender, Znode9X.addNew.maxDate, 12 September 2017, NA, NA, , </td>
+<td></td>
+<td>0</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 195.0, Click on Save, Click, Znode9X.addNew.save, NA, NA, NA, , </td>
+<td></td>
+<td>2</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 196.0, Check for Validation, Assertion, Znode9X.addNew.saveValidation, Record created successfully., NA, NA, , </td>
+<td></td>
+<td>3</td>
+<td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
+<tr>
+<td title='com.znodellc.admin9xqa.Znode9X.executor.Execute.getSteps()'><b>getSteps</b><br>Test class: com.znodellc.admin9xqa.Znode9X.executor.Execute<br>Parameters: Attribute Test24, 197.0, Click on Cancel button, Click, Znode9X.addNew.cancel, NA, NA, NA, , </td>
+<td></td>
+<td>1</td>
 <td>com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8</td></tr>
 </table><p>
 </body>

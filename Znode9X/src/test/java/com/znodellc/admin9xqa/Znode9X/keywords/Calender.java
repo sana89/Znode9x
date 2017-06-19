@@ -11,11 +11,14 @@ import com.znodellc.admin9xqa.Znode9X.baseScript.PropertiesFile;
 
 public class Calender extends PropertiesFile {
 	
-	public static void selectDate(String inputDate, String locator)
+	public static void selectDate(String inputDate, String locator) throws Exception
 	{
 //		 Date d = new Date(inputDate);
 //		 SimpleDateFormat dateFormat = new SimpleDateFormat("MMMM/dd/yyyy");
 //		 String date = dateFormat.format(d);
+		WebElement cal = PropertiesFile.getLocator(locator);
+		cal.click();
+		
 		 
 		 String[] split = inputDate.split(" ");
 		 
