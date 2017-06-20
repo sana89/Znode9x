@@ -21,7 +21,7 @@ public class ExcelRead {
 				Properties pr = new Properties();
 				pr.load(fs);
 				String excelFile1 = pr.getProperty("excelToExcute");
-		       //File src=new File(".//TestData/LoginTestData.xlsx");
+//		       File src=new File(".//TestData//ProductAttributes//ProductAttribute(AddNew)TestData.xlsx");
 		       File src=new File(excelFile1);
 		 
 		   // load file

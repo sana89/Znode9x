@@ -1,1 +1,1 @@
-excelToExcute=.//TestData/ProductAttribute(AddNew)TestData  Main.xlsx
+excelToExcute=.//TestData//ProductAttributes//ProductAttributeTestDataSample.xlsx

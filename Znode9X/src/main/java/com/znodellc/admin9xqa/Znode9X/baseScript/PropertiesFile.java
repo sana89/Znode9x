@@ -22,6 +22,10 @@ public class PropertiesFile extends ManageDrivers{
 		file = new File(System.getProperty("user.dir")+".//pageLibrary/PIM/ProductAttributes/Attributes/addNew.properties");
 		fileInputStream = new FileInputStream(file);
 		Repository.load(fileInputStream);
+		
+		file = new File(System.getProperty("user.dir")+".//pageLibrary/PIM/ProductAttributes/Attributes/listPage.properties");
+		fileInputStream = new FileInputStream(file);
+		Repository.load(fileInputStream);
 	}
 	
 	public static WebElement getLocator(String locator1) throws Exception
