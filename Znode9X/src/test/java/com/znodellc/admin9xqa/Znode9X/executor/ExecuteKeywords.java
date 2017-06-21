@@ -8,7 +8,6 @@ import com.znodellc.admin9xqa.Znode9X.keywords.Calender;
 import com.znodellc.admin9xqa.Znode9X.keywords.Click;
 import com.znodellc.admin9xqa.Znode9X.keywords.CloseBrowser;
 import com.znodellc.admin9xqa.Znode9X.keywords.DropDown;
-import com.znodellc.admin9xqa.Znode9X.keywords.DropDownWithCheckbox;
 import com.znodellc.admin9xqa.Znode9X.keywords.PopUps;
 import com.znodellc.admin9xqa.Znode9X.keywords.SendKeys;
 
@@ -61,7 +60,7 @@ public class ExecuteKeywords {
 			break;
 		
 		case "PopUps":
-			PopUps.confirmPopUp(Locator);
+			PopUps.acceptPopUps();
 			break;
 			
 		

@@ -4,8 +4,6 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-
 import com.znodellc.admin9xqa.Znode9X.baseScript.PropertiesFile;
 
 public class DropDownWithCheckbox extends PropertiesFile {

@@ -8,25 +8,45 @@ import com.znodellc.admin9xqa.Znode9X.baseScript.PropertiesFile;
 
 public class PopUps extends PropertiesFile {
 	
-	public static void confirmPopUp(String locator) throws Exception
-	{
-		String myWindowHandle = driver.getWindowHandle();
-		driver.switchTo().window(myWindowHandle);
-		PropertiesFile.getLocator(locator).click();
-	}
-	
-//	public static void acceptPopUps() throws InterruptedException
-//	{
-//		    WebDriverWait wait = new WebDriverWait(driver, 2);
-//		    wait.until(ExpectedConditions.alertIsPresent());
+//	public static void confirmPopUp(String locator){
+		
+//		Thread.sleep(3000);
+//		String parentWindowHandler = driver.getWindowHandle(); // Store your parent window
+//		String subWindowHandler = null;
+//
+//		Set<String> handles = driver.getWindowHandles(); // get all window handles
+//		System.out.println("Total handles "+handles.size());
 //		
-//		Alert alert = driver.switchTo().alert();
+//		Iterator<String> iterator = handles.iterator();
+//		while (iterator.hasNext()){
+//		    subWindowHandler = iterator.next();
 //		
-//		getTextPopUps();
-//		
-//		alert.accept();
-//		
+//		driver.switchTo().window(subWindowHandler); // switch to popup window
+//		PropertiesFile.getLocator(locator).click();
+//
+//		// Now you are in the popup window, perform necessary actions here
+//	//	WebElement clickableElement = PropertiesFile.getLocator(locator);
+//	
+//		}
+//		driver.switchTo().window(parentWindowHandler);  // switch back to parent window
+		
+//	System.out.println("text "+driver.findElement(By.xpath(".//*[@id='NoCheckboxSelected']/div/div/div[2]/p")).getText());
+//    driver.findElement(By.xpath("(.//*[@id='btn-cancel-popup'])[2]")).click();
+//
 //	}
+	
+	public static void acceptPopUps() throws InterruptedException
+	{
+		    WebDriverWait wait = new WebDriverWait(driver, 2);
+		    wait.until(ExpectedConditions.alertIsPresent());
+		
+		Alert alert = driver.switchTo().alert();
+		
+		getTextPopUps();
+		
+		alert.accept();
+		
+	}
 //	
 //	public static void dismissPopUps()
 //	{
@@ -35,12 +55,13 @@ public class PopUps extends PropertiesFile {
 //		alert.dismiss();
 //	}
 //	
-//	public static void getTextPopUps()
-//	{
-//		Alert alert = driver.switchTo().alert();
-//		
-//		String alertMessage = alert.getText();
-//		
-//		System.out.println(alertMessage);
-//	}
+	public static void getTextPopUps()
+	{
+		Alert alert = driver.switchTo().alert();
+		
+		String alertMessage = alert.getText();
+		
+		System.out.println(alertMessage);
+	}
+	
 }
