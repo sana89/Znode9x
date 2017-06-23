@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33585" started-at="2017-06-22T09:25:03Z" finished-at="2017-06-22T09:25:37Z">
+  <suite name="Default suite" duration-ms="25009" started-at="2017-06-23T11:54:17Z" finished-at="2017-06-23T11:54:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33585" started-at="2017-06-22T09:25:03Z" finished-at="2017-06-22T09:25:37Z">
+    <test name="Default test" duration-ms="25009" started-at="2017-06-23T11:54:17Z" finished-at="2017-06-23T11:54:42Z">
       <class name="com.znodellc.admin9xqa.Znode9X.executor.Execute">
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="4651" started-at="2017-06-22T14:55:04Z" data-provider="hybridData" finished-at="2017-06-22T14:55:08Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="5635" started-at="2017-06-23T17:24:18Z" data-provider="hybridData" finished-at="2017-06-23T17:24:24Z">
           <params>
             <param index="0">
               <value>
@@ -51,19 +51,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="111" started-at="2017-06-22T14:55:08Z" data-provider="hybridData" finished-at="2017-06-22T14:55:08Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="110" started-at="2017-06-23T17:24:24Z" data-provider="hybridData" finished-at="2017-06-23T17:24:24Z">
           <params>
             <param index="0">
               <value>
@@ -107,19 +107,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="132" started-at="2017-06-22T14:55:08Z" data-provider="hybridData" finished-at="2017-06-22T14:55:09Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="125" started-at="2017-06-23T17:24:24Z" data-provider="hybridData" finished-at="2017-06-23T17:24:24Z">
           <params>
             <param index="0">
               <value>
@@ -163,19 +163,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="5583" started-at="2017-06-22T14:55:09Z" data-provider="hybridData" finished-at="2017-06-22T14:55:14Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="5866" started-at="2017-06-23T17:24:24Z" data-provider="hybridData" finished-at="2017-06-23T17:24:30Z">
           <params>
             <param index="0">
               <value>
@@ -219,19 +219,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3102" started-at="2017-06-22T14:55:14Z" data-provider="hybridData" finished-at="2017-06-22T14:55:17Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3103" started-at="2017-06-23T17:24:30Z" data-provider="hybridData" finished-at="2017-06-23T17:24:33Z">
           <params>
             <param index="0">
               <value>
@@ -275,19 +275,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="9926" started-at="2017-06-22T14:55:17Z" data-provider="hybridData" finished-at="2017-06-22T14:55:27Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3099" started-at="2017-06-23T17:24:33Z" data-provider="hybridData" finished-at="2017-06-23T17:24:36Z">
           <params>
             <param index="0">
               <value>
@@ -331,131 +331,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="22" started-at="2017-06-22T14:55:27Z" data-provider="hybridData" finished-at="2017-06-22T14:55:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Attribute Test2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[7.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Click on Add New]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Click]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Znode9X.addNew.addnewoption]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="33" started-at="2017-06-22T14:55:27Z" data-provider="hybridData" finished-at="2017-06-22T14:55:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Attribute Test2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Select a text dropdown in Attribute Type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DropDown]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Znode9X.addNew.attributeType]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Text]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="25" started-at="2017-06-22T14:55:27Z" data-provider="hybridData" finished-at="2017-06-22T14:55:27Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3105" started-at="2017-06-23T17:24:36Z" data-provider="hybridData" finished-at="2017-06-23T17:24:39Z">
           <params>
             <param index="0">
               <value>
@@ -469,22 +357,22 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Enter the value in Code field and keep locale field Blank]]>
+                <![CDATA[Click on Manage Filter DropDown]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[SendKeys]]>
+                <![CDATA[Click]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Znode9X.addNew.code]]>
+                <![CDATA[Znode9X,listPage.manageFilter]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xyz]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="6">
@@ -499,19 +387,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="25" started-at="2017-06-22T14:55:27Z" data-provider="hybridData" finished-at="2017-06-22T14:55:27Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3129" started-at="2017-06-23T17:24:39Z" data-provider="hybridData" finished-at="2017-06-23T17:24:42Z">
           <params>
             <param index="0">
               <value>
@@ -525,7 +413,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Click on Save]]>
+                <![CDATA[Click on Attribute Type checkbox in Manage Filter DropDown]]>
               </value>
             </param>
             <param index="3">
@@ -535,7 +423,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Znode9X.addNew.save]]>
+                <![CDATA[Znode9X.listPage.attributeTypeCheckBox]]>
               </value>
             </param>
             <param index="5">
@@ -555,19 +443,19 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="24" started-at="2017-06-22T14:55:27Z" data-provider="hybridData" finished-at="2017-06-22T14:55:27Z">
+        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="299" started-at="2017-06-23T17:24:42Z" data-provider="hybridData" finished-at="2017-06-23T17:24:42Z">
           <params>
             <param index="0">
               <value>
@@ -581,17 +469,17 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Click on Cancel button]]>
+                <![CDATA[Check if Attribute Type Manage Filter exist]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Click]]>
+                <![CDATA[IsDisplayed]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Znode9X.addNew.cancel]]>
+                <![CDATA[Znode9X.listPage.manageFilterAttributeType]]>
               </value>
             </param>
             <param index="5">
@@ -611,236 +499,12 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[]]>
+                <![CDATA[NA]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3103" started-at="2017-06-22T14:55:27Z" data-provider="hybridData" finished-at="2017-06-22T14:55:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Attribute Test3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Click on Attribute Code Manage filter]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Click]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Znode9X.listPage.mageFilterAttributeCode]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
                 <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="95" started-at="2017-06-22T14:55:30Z" data-provider="hybridData" finished-at="2017-06-22T14:55:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Attribute Test3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[13.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Enter attribute code in attribute code filter search]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[SendKeys]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Znode9X.listPage.attributeCodeFilter]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3107" started-at="2017-06-22T14:55:31Z" data-provider="hybridData" finished-at="2017-06-22T14:55:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Attribute Test3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[14.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Click on search icon of filter]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Click]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Znode9X.listPage.attributeCodeFilterSearch]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSteps -->
-        <test-method status="PASS" signature="getSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.znodellc.admin9xqa.Znode9X.executor.Execute@d8355a8]" name="getSteps" duration-ms="3105" started-at="2017-06-22T14:55:34Z" data-provider="hybridData" finished-at="2017-06-22T14:55:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Attribute Test3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[15.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Click on cancel icon of attribute code filter search]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Click]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Znode9X.listPage.attributeCodeFilterClose]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
               </value>
             </param>
           </params>

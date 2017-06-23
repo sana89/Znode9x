@@ -15,17 +15,21 @@ public class PropertiesFile extends ManageDrivers{
 	
 	public static void loadPropertiesFile() throws Exception
 	{
-		file = new File(System.getProperty("user.dir")+".//pageLibrary/loginPage.properties");
-		fileInputStream = new FileInputStream(file);
-		Repository.load(fileInputStream);
+//		file = new File(System.getProperty("user.dir")+".//pageLibrary/loginPage.properties");
+//		fileInputStream = new FileInputStream(file);
+//		Repository.load(fileInputStream);
 		
-		file = new File(System.getProperty("user.dir")+".//pageLibrary/PIM/ProductAttributes/Attributes/addNew.properties");
-		fileInputStream = new FileInputStream(file);
-		Repository.load(fileInputStream);
+//		file = new File(System.getProperty("user.dir")+".//pageLibrary/PIM/ProductAttributes/Attributes/addNew.properties");
+//		fileInputStream = new FileInputStream(file);
+//		Repository.load(fileInputStream);
 		
 		file = new File(System.getProperty("user.dir")+".//pageLibrary/PIM/ProductAttributes/Attributes/listPage.properties");
 		fileInputStream = new FileInputStream(file);
 		Repository.load(fileInputStream);
+		
+//		file = new File(System.getProperty("user.dir")+".//pageLibrary/PIM/ProductAttributes/AttributeGroups/addNew.properties");
+//		fileInputStream = new FileInputStream(file);
+//		Repository.load(fileInputStream);
 	}
 	
 	public static WebElement getLocator(String locator1) throws Exception
