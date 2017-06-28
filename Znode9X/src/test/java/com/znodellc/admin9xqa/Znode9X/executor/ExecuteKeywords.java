@@ -10,6 +10,7 @@ import com.znodellc.admin9xqa.Znode9X.keywords.CloseBrowser;
 import com.znodellc.admin9xqa.Znode9X.keywords.DropDown;
 import com.znodellc.admin9xqa.Znode9X.keywords.IsDisplayed;
 import com.znodellc.admin9xqa.Znode9X.keywords.PopUps;
+import com.znodellc.admin9xqa.Znode9X.keywords.RepeatedLocators;
 import com.znodellc.admin9xqa.Znode9X.keywords.SendKeys;
 
 public class ExecuteKeywords {
@@ -65,7 +66,11 @@ public class ExecuteKeywords {
 			break;
 			
 		case "IsDisplayed":
-			IsDisplayed.visibleElement(stepNumber, Locator);
+			IsDisplayed.visibleElement(stepNumber, TestData1);
+			break;
+			
+		case "RepeatedLocators":
+			RepeatedLocators.clickCheckBox(TestData1);
 			break;
 		
 		

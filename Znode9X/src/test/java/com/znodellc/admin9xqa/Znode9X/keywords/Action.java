@@ -9,7 +9,7 @@ public class Action extends PropertiesFile {
 	
 	public static void mouseHoverAction(String locator) throws Exception
 	{
-		
+		Thread.sleep(5000);
 		Actions action = new Actions(driver);
 		WebElement element = PropertiesFile.getLocator(locator);
 		action.moveToElement(element).click().build().perform();
