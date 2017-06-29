@@ -15,6 +15,7 @@ public class Execute extends ExcelRead {
 
     
 	 boolean runMode =CheckExecutionMode.CheckTheExecutionMode(testCase);
+	 
 	 if(runMode == true)
 		 ExecuteKeywords.ExecuteTheKeywords(testCase, stepNumber, testStep, keyword, Locator, TestData1, TestData2, TestData3, TestData4, Status);
 	 else

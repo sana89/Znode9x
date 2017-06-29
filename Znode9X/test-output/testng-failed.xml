@@ -5,7 +5,7 @@
     <classes>
       <class name="com.znodellc.admin9xqa.Znode9X.executor.Execute">
         <methods>
-          <include name="getSteps"/>
+          <include name="getSteps" invocation-numbers="10"/>
         </methods>
       </class> <!-- com.znodellc.admin9xqa.Znode9X.executor.Execute -->
     </classes>

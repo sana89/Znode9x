@@ -8,6 +8,7 @@ public class CheckExecutionMode {
 		
 		boolean mode = false;
 		Object[][] getTestSuite = ExcelRead.readExcel("TestSuite");
+		System.out.println();
 		
 		  for(int i=0; i<getTestSuite.length;i++)
 		    {
