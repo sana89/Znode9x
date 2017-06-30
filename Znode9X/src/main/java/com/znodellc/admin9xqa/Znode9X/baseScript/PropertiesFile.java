@@ -31,7 +31,11 @@ public class PropertiesFile extends ManageDrivers{
 //		fileInputStream = new FileInputStream(file);
 //		Repository.load(fileInputStream);
 		
-		file = new File(System.getProperty("user.dir")+".//pageLibrary//PIM//ProductAttributes//AttributeGroups//listPage.properties");
+//		file = new File(System.getProperty("user.dir")+".//pageLibrary//PIM//ProductAttributes//AttributeGroups//listPage.properties");
+//		fileInputStream = new FileInputStream(file);
+//		Repository.load(fileInputStream);
+		
+		file = new File(System.getProperty("user.dir")+".//pageLibrary//PIM//ProductAttributes//AttributeFamilies//addNew.properties");
 		fileInputStream = new FileInputStream(file);
 		Repository.load(fileInputStream);
 	}
