@@ -11,6 +11,7 @@ import com.znodellc.admin9xqa.Znode9X.keywords.DropDown;
 import com.znodellc.admin9xqa.Znode9X.keywords.IsDisplayed;
 import com.znodellc.admin9xqa.Znode9X.keywords.PopUps;
 import com.znodellc.admin9xqa.Znode9X.keywords.RepeatedLocators;
+import com.znodellc.admin9xqa.Znode9X.keywords.SelectOneOfMultipleElements;
 import com.znodellc.admin9xqa.Znode9X.keywords.SendKeys;
 
 public class ExecuteKeywords {
@@ -72,6 +73,10 @@ public class ExecuteKeywords {
 		case "RepeatedLocators":
 			RepeatedLocators.clickCheckBox(TestData1);
 			break;
+			
+		case "SelectOneOfMultipleElements":
+			SelectOneOfMultipleElements.selectLocator();
+		
 		
 		
 		    /*
