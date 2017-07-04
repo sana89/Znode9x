@@ -5,6 +5,7 @@ import com.znodellc.admin9xqa.Znode9X.keywords.Action;
 import com.znodellc.admin9xqa.Znode9X.keywords.AssertPageTitle;
 import com.znodellc.admin9xqa.Znode9X.keywords.Assertion;
 import com.znodellc.admin9xqa.Znode9X.keywords.Calender;
+import com.znodellc.admin9xqa.Znode9X.keywords.ClearTextBox;
 import com.znodellc.admin9xqa.Znode9X.keywords.Click;
 import com.znodellc.admin9xqa.Znode9X.keywords.CloseBrowser;
 import com.znodellc.admin9xqa.Znode9X.keywords.DropDown;
@@ -76,6 +77,11 @@ public class ExecuteKeywords {
 			
 		case "SelectOneOfMultipleElements":
 			SelectOneOfMultipleElements.selectLocator();
+			break;
+			
+		case "ClearTextBox":
+			ClearTextBox.deleteTextBox(Locator);
+			break;
 		
 		
 		
